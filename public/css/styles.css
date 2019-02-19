@@ -166,15 +166,10 @@ p {
 
 
 /* Projects */
-.notes {
+.proj {
   margin-bottom: 300px;
   margin-left: 10%;
   margin-right: 10%;
-}
-
-.notesG {
-  float: left;
-  position: relative;
 }
 
 .titleLeft {
@@ -187,12 +182,6 @@ p {
   left: 5%;
 }
 
-.calc {
-  margin-bottom: 300px;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
 .titleRight {
   text-align: right;
 }
@@ -203,26 +192,11 @@ p {
   right: 5%;
 }
 
-.calcG {
-  float: right;
-}
-
-.kindleG {
+.leftGif {
   float: left;
+  position: relative;
 }
 
-.kindle {
-  margin-bottom: 300px;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.concG {
+.rightGif {
   float: right;
-}
-
-.conc {
-  margin-bottom: 300px;
-  margin-left: 10%;
-  margin-right: 10%;
 }
