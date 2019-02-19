@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Some Website</title>
+  <title>Designs</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <link rel="stylesheet" href="/css/styles.css">
 
@@ -19,8 +19,9 @@
 <body>
 
 
-  <!-- Nav Bar -->
   <div class="top-container">
+
+    <!-- Nav Bar -->
     <section class="color-section" id="title">
       <div class="container-fluid">
 
@@ -52,59 +53,31 @@
 
 
         </nav>
-      </div>
-  </div>
-  </section>
 
 
+<h1>Designs</h1>
 
-  <!-- iOS Projects -->
-  <div id="projects">
-    <div class="proj">
-      <h1>ios Projects</h1>
-      <h2 class="titleLeft">Notes</h2>
-      <img class="leftGif" src=https://i.imgur.com/F3VU0xl.gif width=200>
-      <p class="projectsPR">A simple app to take notes that uses core data to persist through closing and relaunching the app.</p><a href="#"></a>
-      <button type="button" class="btn btn-light btn-lg" onclick="location.href='https://github.com/JeremyRobinson33/Notes'">Github</button>
-    </div>
+        <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+          <div class="carousel-inner">
+            <div class="carousel-item active container-fluid">
+              <img class="designs" src="images/hrccLogo.png" alt="Hofstra Climbing Club Logo">
+              <h2 class="testimonial-text">Hofstra Rock Climbing Club Logo</h2>
+              <em>Hempstead, New York</em>
+            </div>
 
-    <hr>
-
-    <div class="proj">
-      <h2 class="titleRight">Calculator</h2>
-      <img class="rightGif" src=https://i.imgur.com/ft8vPRN.gif width=200>
-      <p class="projectsPL">A calculator for day to day math including adding, subtracting, and dividing</p>
-      <button type="button" class="btn btn-light btn-lg" onclick="location.href='https://github.com/JeremyRobinson33/Calculator'">Github</button>
-    </div>
-
-    <hr>
-
-    <div class="proj">
-      <h2 class="titleLeft">Kindle</h2>
-      <img class="leftGif" src=https://i.imgur.com/DA4fgZf.gif width=200>
-      <p class="projectsPR">A mockup of a kindle app that uses JSON objects to display the author, the title, and a sample of each book's pages.</p>
-      <button type="button" class="btn btn-light btn-lg" onclick="location.href='https://github.com/JeremyRobinson33/kindle'">Github</button>
-    </div>
-
-    <hr>
-
-    <div class="proj">
-      <h2 class="titleRight">Concentration</h2>
-      <img class="rightGif" src=https://i.imgur.com/eMIpHO7.gif width=200>
-      <p class="projectsPL">A Concentration game that uses a dynamic time based scoring system so that you can compete in your favorite childhood game against your friends.</p>
-      <button type="button" class="btn btn-light btn-lg" onclick="location.href='https://github.com/JeremyRobinson33/Concentration'">Github</button>
-    </div>
-
-    <!-- Web Projects -->
-    <!-- <h1>Web Projects</h1> -->
+            <!-- carousel previous button -->
+            <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <!-- carousel next button -->
+            <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+        </div>
 
 
-
-
-  </div>
-  <p>Coming Soon: More Projects</p>
-
-  {{> footer}}
+            {{> footer}}
 </body>
 
 </html>
