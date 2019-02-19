@@ -48,6 +48,12 @@ p {
   margin: 80px 0;
 }
 
+.profilePicture {
+  width: 50%;
+  border-radius: 25%;
+  margin-bottom: 5%;
+}
+
 .bottom-container {
   background-color: #88304e;
   padding: 50px 0 20px;
