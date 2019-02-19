@@ -61,7 +61,6 @@ app.get('/projects', (req, res) => {
   })
 })
 
-
 app.listen(port, () => {
   console.log(`Server is up on port: ${port}` )
 })
