@@ -1,14 +1,114 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Some Website</title>
-  </head>
-  <body>
-    {{> header}}
+<html lang="en" dir="ltr">
 
-      <p>{{screamIt welcomeMessage}}</p>
+<head>
+  <meta charset="utf-8">
+  <title>Jeremy Robinson</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/styles.css">
 
-    {{> footer}}
-  </body>
+  <!-- <link rel="icon" href="favicon.ico"> -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
+
+  <!-- Bootstrap scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+
+
+
+
+
+  <div class="top-container">
+
+    <!-- Nav Bar -->
+    <section class="color-section" id="title">
+      <div class="container-fluid">
+
+
+        <nav class="navbar navbar-expand-lg navbar-dark ">
+
+          <a class="navbar-brand" href="/">JR</a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="/about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cta">Download</a>
+              </li>
+
+            </ul>
+
+          </div>
+
+
+        </nav>
+
+
+    <img class="top-cloud" src="images/cloud.png" alt="Cloud Picture">
+    <h1>I'm Jeremy.</h1>
+    <h2>a <span class="pro">pro</span>grammer</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="Cloud Picture">
+    <img src="images/mountain.png" alt="Mountain Picture">
+  </div>
+</div>
+
+  <div class="middle-container">
+    <div class="profile">
+      <img src="images/profilePic.png" alt="A picture of Jeremy Robinson">
+      <h2>Hello There.</h2>
+      <p class="bio">I am a computer science major in my third year at Hofstra University. Currently interested in iOS and web development.</p>
+    </div>
+    <hr>
+
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="coding" src="images/coding.png" alt="">
+        <!-- <div class="credit">Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" 		    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 		    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+        <h3>Programming</h3>
+        <p>I started seriously programming when I started college, and have since learned a variety of skills such as mobile and web development. </p>
+      </div>
+
+      <div class="skill-row">
+        <img class="climbing" src="images/carabiner.png" alt="">
+        <!-- <div class="credit">Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" 		    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 		    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+        <h3>Rock Climbing</h3>
+        <p>I started climbing two and half years ago and immediately fell in love with the sport.</p>
+      </div>
+    </div>
+
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>If you want to climb or code or both</h3>
+      <p>Let's get together!</p>
+      <a class="btn" href="mailto:jeremydrobinson33@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/jeremy-robinson-7623b3152/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/Mr_Amazing33">Twitter</a>
+    <a class="footer-link" href="https://github.com/JeremyRobinson33">Github</a>
+    <p class="copyright">© 2019 Jeremy Robinson.</p>
+  </div>
+
+  {{> footer}}
+</body>
 </html>

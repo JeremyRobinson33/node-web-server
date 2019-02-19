@@ -1,14 +1,103 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Some Website</title>
-  </head>
-  <body>
-    {{> header}}
 
-      <p>Coming Soon: Projects</p>
+<head>
+  <meta charset="utf-8">
+  <title>Some Website</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/styles.css">
 
-    {{> footer}}
-  </body>
+  <!-- <link rel="icon" href="favicon.ico"> -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
+
+  <!-- Bootstrap scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+  <!-- Nav Bar -->
+  <div class="top-container">
+    <section class="color-section" id="title">
+      <div class="container-fluid">
+
+
+        <nav class="navbar navbar-expand-lg navbar-dark ">
+
+          <a class="navbar-brand" href="/">JR</a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="/about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cta">Download</a>
+              </li>
+
+            </ul>
+
+          </div>
+
+
+        </nav>
+      </div>
+  </div>
+  </section>
+
+
+
+  <!-- iOS Projects -->
+  <div id="projects">
+    <div class="notes">
+      <h1>ios Projects</h1>
+      <h2 class="titleLeft">Notes</h2>
+      <img class="notesG" src=https://i.imgur.com/F3VU0xl.gif width=200>
+      <p class="projectsPR">A simple app to take notes that uses core data to persist through closing and relaunching the app.</p><a href="#"></a>
+      <button type="button" class="btn btn-light btn-lg" onclick="location.href='https://github.com/JeremyRobinson33/Notes'">Github</button>
+    </div>
+
+    <hr>
+
+    <div class="calc">
+      <h2 class="titleRight">Calculator</h2>
+      <img class="calcG" src=https://i.imgur.com/ft8vPRN.gif width=200>
+      <p class="projectsPL">A calculator for day to day math including adding, subtracting, and dividing</p>
+      <button type="button" class="btn btn-light btn-lg" onclick="location.href='https://github.com/JeremyRobinson33/Calculator'">Github</button>
+    </div>
+
+    <hr>
+
+    <div class="kindle">
+      <h2 class="titleLeft">Kindle</h2>
+      <img class="kindleG" src=https://i.imgur.com/DA4fgZf.gif width=200>
+      <p class="projectsPR">A mockup of a kindle app that uses JSON objects to display the author, the title, and a sample of each book's pages.</p>
+      <button type="button" class="btn btn-light btn-lg" onclick="location.href='https://github.com/JeremyRobinson33/kindle'">Github</button>
+    </div>
+
+    <hr>
+
+    <!-- Web Projects -->
+    <!-- <h1>Web Projects</h1> -->
+
+
+
+
+  </div>
+  <p>Coming Soon: Projects</p>
+
+  {{> footer}}
+</body>
+
 </html>
