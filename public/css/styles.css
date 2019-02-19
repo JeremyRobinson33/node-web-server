@@ -203,6 +203,7 @@ p {
 
 /* Designs */
 .designs {
+  border-radius: 10%;
   width: 80%;
-  
+
 }
