@@ -170,6 +170,7 @@ p {
   margin-bottom: 300px;
   margin-left: 10%;
   margin-right: 10%;
+  text-align: center;
 }
 
 .titleLeft {
@@ -179,7 +180,7 @@ p {
 .projectsPR {
   padding: 10% 0 0 0;
   position: relative;
-  left: 5%;
+  left: 0%;
 }
 
 .titleRight {
@@ -189,7 +190,7 @@ p {
 .projectsPL{
   padding: 10% 0 0 0;
   position: relative;
-  right: 5%;
+  right: 0%;
 }
 
 .leftGif {
@@ -205,5 +206,4 @@ p {
 .designs {
   border-radius: 10%;
   width: 80%;
-
 }
